@@ -9,7 +9,7 @@ configuration {
 }
 
 * {
-    font: "JetbrainsMono Nerd Font 12";
+    font: "JetbrainsMono Nerd Font 15";
     foreground: #f8f8f2;
     background-color: #282a36;
     active-background: #6272a4;
@@ -26,8 +26,10 @@ configuration {
     background-color: @background-color;
     border:           3;
     border-radius:    6;
-    border-color:     @bordercolor;
+    border-color:     #6272a4;
     padding:          15;
+    height:           475px;
+    width:            700px;
 }
 #mainbox {
     border:  0;
@@ -93,6 +95,7 @@ configuration {
     border:       0;
     handle-width: 8px ;
     padding:      0;
+    handle-color: #6272a4;
 }
 #sidebar {
     border:       2px dash 0px 0px ;
@@ -103,9 +106,12 @@ configuration {
     text-color:       @foreground;
 }
 #inputbar {
-    spacing:    0;
-    text-color: @foreground;
-    padding:    1px ;
+    spacing:       0;
+    text-color:    @foreground;
+    padding:       15px;
+    border:        3px;
+    border-radius: 6px;
+    border-color:  #6272a4;
 }
 #case-indicator {
     spacing:    0;
@@ -129,6 +135,7 @@ configuration {
     text-color: @foreground;
 }
 element-text, element-icon {
+    size: 45px;
     background-color: inherit;
     text-color: inherit;
 }
