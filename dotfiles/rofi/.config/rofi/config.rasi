@@ -28,8 +28,7 @@ configuration {
     border-radius:    6;
     border-color:     #6272a4;
     padding:          15;
-    height:           475px;
-    width:            700px;
+    width:            600px;
 }
 #mainbox {
     border:  0;
@@ -44,6 +43,7 @@ configuration {
     text-color: @foreground;
 }
 #listview {
+    lines:        6;
     fixed-height: 0;
     border:       0px;
     border-color: @bordercolor;
