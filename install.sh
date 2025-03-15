@@ -19,6 +19,9 @@ echo "Install package"
 sudo pacman -S --noconfirm hyprland ghostty stow nemo swww waybar rofi rofi-emoji hyprlock swaync brightnessctl bluez bluez-utils blueman discord
 yay -S --noconfirm wlogout hyprshot brave-bin spotify cava visual-studio-code-bin
 
+echo "Enable bluetooth"
+sudo systemctl enable --now bluetooth
+
 echo "Install JetBrainsMono Nerd Font"
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
