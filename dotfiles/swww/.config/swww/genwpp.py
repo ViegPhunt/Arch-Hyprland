@@ -18,7 +18,7 @@ blur_passes = 3
 for _ in range(blur_passes):
     image = image.filter(ImageFilter.GaussianBlur(blur_size))
 
-blur_path = os.path.expanduser("~/.config/swww/blur_image.png")
+blur_path = os.path.expanduser("~/.config/swww/blur.png")
 if os.path.exists(blur_path):
     os.remove(blur_path)
 image.save(blur_path)
