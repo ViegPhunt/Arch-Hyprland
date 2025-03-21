@@ -25,6 +25,9 @@ pip install Pillow
 echo "Enable bluetooth"
 sudo systemctl enable --now bluetooth
 
+echo "Set wlogout buttons per row"
+wlogout -b 2
+
 echo "Install JetBrainsMono Nerd Font"
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
