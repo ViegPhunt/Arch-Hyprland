@@ -51,8 +51,9 @@ configuration {
     padding:      2px 0px 0px ;
 }
 #element {
-    border:  0;
-    padding: 3px ;
+    border:        0;
+    border-radius: 8px;
+    padding:       3px ;
 }
 #element.normal.normal {
     background-color: @background-color;
@@ -135,7 +136,7 @@ configuration {
     text-color: @foreground;
 }
 element-text, element-icon {
-    size: 45px;
+    size:             45px;
     background-color: inherit;
-    text-color: inherit;
+    text-color:       inherit;
 }
