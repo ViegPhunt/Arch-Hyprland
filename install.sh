@@ -39,7 +39,7 @@ git clone https://github.com/ViegPhunt/Arch-Hyprland.git ~/Arch-Hyprland
 mkdir -p ~/dotfiles && mv ~/Arch-Hyprland/dotfiles/* ~/dotfiles/
 rm -rf ~/Arch-Hyprland
 cd ~/dotfiles
-stow ghostty hypr rofi wallpaper waybar wlogout
+stow ghostty hypr rofi wallpaper waybar wlogout swww
 cd ~
 
 echo "Have a great time with Hyprland!!!"
