@@ -11,7 +11,7 @@
 }
 
 {
-    "label": "hibernate",
+    "label": "reboot",
         "action": "systemctl reboot",
         "text": "Reboot",
 }
