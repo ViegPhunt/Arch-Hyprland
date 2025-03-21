@@ -7,7 +7,7 @@
 {
     "label": "suspend",
         "action": "systemctl suspend",
-        "text": "Suspend",
+        "text": "Sleep",
 }
 
 {
