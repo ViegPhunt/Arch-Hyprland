@@ -1,0 +1,9 @@
+theme = Dracula
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+background-opacity = 0.8
+keybind = ctrl+shift+v=ignore
+keybind = performable:ctrl+v=paste_from_clipboard
+keybind = ctrl+shift+c=ignore
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = ctrl+shift+e=ignore

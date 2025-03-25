@@ -1,0 +1,66 @@
+{
+    "modules-left": ["custom/power", "hyprland/workspaces",],
+    // "modules-center": [],
+    "modules-right": ["network", "battery", "pulseaudio", "bluetooth", "clock"],
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}",
+    },
+
+    "clock": {
+        "format": "{:%a %d/%m/%Y ~ %H:%M}",
+        "tooltip-format": "<tt><big>{calendar}</big></tt>",
+    },
+
+    "battery": {
+        "states": {
+            "good": 85,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-plugged": "{capacity}% ",
+        "format-charging": "{capacity}% ",
+        "format-alt": "{capacity}% {icon}",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "tooltip-format": "{time}"
+    },
+
+    "network": {
+        "format-wifi": "{essid}  ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "{volume}%  ",
+        "format-bluetooth": "{volume}% ",
+        "format-bluetooth-muted": "{volume}%   ",
+        "format-icons": {
+            "headphone": " ",
+            "headset": " ",
+            "default": [" "]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    "bluetooth": {
+	    "format": " 󰂯 ",
+	    "format-disabled": " 󰂲 ",
+	    "format-connected": " 󰂱 ",
+	    "on-click": "blueman-manager",
+    },
+
+    "custom/power": {
+        "format" : "⭘ ",
+		"tooltip": false,
+		"on-click": "wlogout -b 5",
+    }
+}
