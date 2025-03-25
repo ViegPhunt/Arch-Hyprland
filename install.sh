@@ -19,11 +19,11 @@ echo "Install package"
 sudo pacman -S --noconfirm hyprland ghostty stow nemo swww waybar rofi rofi-emoji hyprlock swaync brightnessctl bluez bluez-utils blueman fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-bamboo discord
 yay -S --noconfirm wlogout hyprshot brave-bin spotify cava visual-studio-code-bin
 
-echo "PIP Install"
-pip install Pillow
-
 echo "Setup Terminal"
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/auto-setup-LT/main/arch.sh)"
+
+echo "PIP Install"
+pip install Pillow
 
 echo "Enable bluetooth"
 sudo systemctl enable --now bluetooth
