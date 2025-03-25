@@ -41,6 +41,7 @@ echo "Stow dotfiles"
 git clone https://github.com/ViegPhunt/Arch-Hyprland.git ~/Arch-Hyprland
 mkdir -p ~/dotfiles && mv ~/Arch-Hyprland/dotfiles/* ~/dotfiles/
 rm -rf ~/Arch-Hyprland
+git clone https://github.com/ViegPhunt/Wallpaper-Collection.git
 mkdir -p ~/dotfiles/wallpaper && mv ~/Wallpaper-Collection/Wallpapers/* ~/dotfiles/wallpaper
 rm -rf ~/Wallpaper-Collection
 cd ~/dotfiles
