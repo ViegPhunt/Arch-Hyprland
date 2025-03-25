@@ -22,6 +22,9 @@ yay -S --noconfirm wlogout hyprshot brave-bin spotify cava visual-studio-code-bi
 echo "PIP Install"
 pip install Pillow
 
+echo "Setup Terminal"
+bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/auto-setup-LT/main/arch.sh)"
+
 echo "Enable bluetooth"
 sudo systemctl enable --now bluetooth
 
