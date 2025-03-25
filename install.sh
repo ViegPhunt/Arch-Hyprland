@@ -41,6 +41,8 @@ echo "Stow dotfiles"
 git clone https://github.com/ViegPhunt/Arch-Hyprland.git ~/Arch-Hyprland
 mkdir -p ~/dotfiles && mv ~/Arch-Hyprland/dotfiles/* ~/dotfiles/
 rm -rf ~/Arch-Hyprland
+mkdir -p ~/dotfiles/wallpaper && mv ~/Wallpaper-Collection/Wallpapers/* ~/dotfiles/wallpaper
+rm -rf ~/Wallpaper-Collection
 cd ~/dotfiles
 stow ghostty hypr rofi swww wallpaper waybar wlogout
 cd ~
