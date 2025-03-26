@@ -15,3 +15,10 @@ Using this script to install Hyprland on an Arch-based system
 sudo pacman -Syu --noconfirm
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/Arch-Hyprland/main/install.sh)"
 ```
+Or
+```
+git clone --depth=1 https://github.com/ViegPhunt/Arch-Hyprland.git ~/Arch-Hyprland
+cd ~/Arch-Hyprland
+chmod +x install.sh
+./install.sh
+```
