@@ -43,6 +43,7 @@ button:hover {
 
 #workspaces,
 #custom-power,
+#idle_inhibitor,
 #network,
 #battery,
 #pulseaudio,
@@ -58,6 +59,14 @@ button:hover {
 #network:hover {
     color: #f1fa8c;
     border-bottom: 2px solid #f1fa8c;
+}
+
+#idle_inhibitor {
+    border-bottom: 1px solid #ff5555;
+}
+#idle_inhibitor:hover {
+    color: #ff5555;
+    border-bottom: 2px solid #ff5555;
 }
 
 #battery {
