@@ -12,7 +12,6 @@ This script automates install and setup my Arch Hyprland
 ## Installation
 Using this script to install Hyprland on an Arch-based system
 ```
-sudo pacman -Syu --noconfirm
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/Arch-Hyprland/main/install.sh)"
 ```
 Or
