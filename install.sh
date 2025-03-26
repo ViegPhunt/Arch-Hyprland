@@ -16,7 +16,7 @@ cd ~
 rm -rf ~/yay
 
 echo "Install package"
-sudo pacman -S --noconfirm hyprland ghostty stow nemo swww waybar rofi rofi-emoji hyprlock swaync brightnessctl bluez bluez-utils blueman fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-bamboo discord
+sudo pacman -S --noconfirm hyprland ghostty stow nemo swww waybar rofi rofi-emoji hyprlock swaync brightnessctl network-manager-applet bluez bluez-utils blueman fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-bamboo discord
 yay -S --noconfirm wlogout hyprshot brave-bin spotify cava visual-studio-code-bin
 
 echo "Setup Terminal"
