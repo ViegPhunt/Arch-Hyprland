@@ -1,7 +1,7 @@
 {
     "modules-left": ["custom/power", "hyprland/workspaces",],
     // "modules-center": [],
-    "modules-right": ["network", "battery", "pulseaudio", "bluetooth", "clock"],
+    "modules-right": ["idle_inhibitor", "network", "battery", "pulseaudio", "bluetooth", "clock"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -56,6 +56,14 @@
 	    "format-disabled": " 󰂲 ",
 	    "format-connected": " 󰂱 ",
 	    "on-click": "blueman-manager",
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "   ",
+            "deactivated": "   "
+        }
     },
 
     "custom/power": {
