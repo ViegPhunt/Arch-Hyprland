@@ -40,6 +40,7 @@
         "format-ethernet": "{ipaddr}/{cidr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
+	"tooltip": false,
     },
 
     "pulseaudio": {
