@@ -16,7 +16,8 @@ button {
     border-radius: 0;
 }
 button:hover {
-    background: inherit;
+    background: rgba(0, 0, 0, 0.1);
+    text-shadow: inherit;
     color: #ff8fc7;
     border-bottom: 2px solid #ff8fc7;
 }
