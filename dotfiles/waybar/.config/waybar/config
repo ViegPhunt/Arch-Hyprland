@@ -1,7 +1,7 @@
 {
     "modules-left": ["custom/power", "hyprland/workspaces",],
     // "modules-center": [],
-    "modules-right": ["tray", "idle_inhibitor", "network", "battery", "pulseaudio", "bluetooth", "clock"],
+    "modules-right": ["tray", "idle_inhibitor", "bluetooth", "network", "battery", "pulseaudio", "clock"],
 
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -15,9 +15,27 @@
         "spacing": 10,
     },
 
-    "clock": {
-        "format": "{:%a %d/%m/%Y ~ %H:%M}",
-        "tooltip-format": "<tt><big>{calendar}</big></tt>",
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "   ",
+            "deactivated": "   ",
+        },
+    },
+
+    "bluetooth": {
+	    "format": " 󰂯 ",
+	    "format-disabled": " 󰂲 ",
+	    "format-connected": " 󰂱 ",
+	    "on-click": "blueman-manager",
+    },
+
+    "network": {
+        "format-wifi": "{essid}  ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+	"tooltip": false,
     },
 
     "battery": {
@@ -32,15 +50,7 @@
         "format-charging": "{capacity}% ",
         "format-alt": "{capacity}% {icon}",
         "format-icons": [" ", " ", " ", " ", " "],
-        "tooltip-format": "{time}"
-    },
-
-    "network": {
-        "format-wifi": "{essid}  ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-	"tooltip": false,
+        "tooltip-format": "{time}",
     },
 
     "pulseaudio": {
@@ -51,24 +61,14 @@
         "format-icons": {
             "headphone": " ",
             "headset": " ",
-            "default": [" "]
+            "default": [" "],
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
     },
 
-    "bluetooth": {
-	    "format": " 󰂯 ",
-	    "format-disabled": " 󰂲 ",
-	    "format-connected": " 󰂱 ",
-	    "on-click": "blueman-manager",
-    },
-
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "   ",
-            "deactivated": "   "
-        }
+    "clock": {
+        "format": "{:%a %d/%m/%Y ~ %H:%M}",
+        "tooltip-format": "<tt><big>{calendar}</big></tt>",
     },
 
     "custom/power": {
