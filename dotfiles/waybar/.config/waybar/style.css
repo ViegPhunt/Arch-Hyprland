@@ -66,19 +66,19 @@ button:hover {
 }
 
 #bluetooth {
-    border-bottom: 1px solid #ffb86c;
+    border-bottom: 1px solid #f1fa8c;
 }
 #bluetooth:hover {
     color: #ffb86c;
-    border-bottom: 2px solid #ffb86c;
+    border-bottom: 2px solid #f1fa8c;
 }
 
 #network {
-    border-bottom: 1px solid #f1fa8c;
+    border-bottom: 1px solid #50fa7b;
 }
 #network:hover {
     color: #f1fa8c;
-    border-bottom: 2px solid #f1fa8c;
+    border-bottom: 2px solid #50fa7b;
 }
 
 #battery {
@@ -90,11 +90,11 @@ button:hover {
 }
 
 #pulseaudio {
-    border-bottom: 1px solid #50fa7b;
+    border-bottom: 1px solid #ffb86c;
 }
 #pulseaudio:hover {
     color: #50fa7b;
-    border-bottom: 2px solid #50fa7b;
+    border-bottom: 2px solid #ffb86c;
 }
 
 #clock {
