@@ -69,7 +69,7 @@ button:hover {
     border-bottom: 1px solid #f1fa8c;
 }
 #bluetooth:hover {
-    color: #ffb86c;
+    color: #f1fa8c;
     border-bottom: 2px solid #f1fa8c;
 }
 
@@ -77,7 +77,7 @@ button:hover {
     border-bottom: 1px solid #50fa7b;
 }
 #network:hover {
-    color: #f1fa8c;
+    color: #50fa7b;
     border-bottom: 2px solid #50fa7b;
 }
 
@@ -93,7 +93,7 @@ button:hover {
     border-bottom: 1px solid #ffb86c;
 }
 #pulseaudio:hover {
-    color: #50fa7b;
+    color: #ffb86c;
     border-bottom: 2px solid #ffb86c;
 }
 
