@@ -47,22 +47,14 @@ button:hover {
 #custom-power,
 #tray,
 #idle_inhibitor,
+#bluetooth,
 #network,
 #battery,
 #pulseaudio,
-#bluetooth,
 #clock {
     margin: 2px 6px 0;
     padding: 0 4px;
     color: #ffffff;
-}
-
-#network {
-    border-bottom: 1px solid #f1fa8c;
-}
-#network:hover {
-    color: #f1fa8c;
-    border-bottom: 2px solid #f1fa8c;
 }
 
 #idle_inhibitor {
@@ -71,6 +63,22 @@ button:hover {
 #idle_inhibitor:hover {
     color: #ff5555;
     border-bottom: 2px solid #ff5555;
+}
+
+#bluetooth {
+    border-bottom: 1px solid #ffb86c;
+}
+#bluetooth:hover {
+    color: #ffb86c;
+    border-bottom: 2px solid #ffb86c;
+}
+
+#network {
+    border-bottom: 1px solid #f1fa8c;
+}
+#network:hover {
+    color: #f1fa8c;
+    border-bottom: 2px solid #f1fa8c;
 }
 
 #battery {
@@ -87,14 +95,6 @@ button:hover {
 #pulseaudio:hover {
     color: #50fa7b;
     border-bottom: 2px solid #50fa7b;
-}
-
-#bluetooth {
-    border-bottom: 1px solid #ffb86c;
-}
-#bluetooth:hover {
-    color: #ffb86c;
-    border-bottom: 2px solid #ffb86c;
 }
 
 #clock {
