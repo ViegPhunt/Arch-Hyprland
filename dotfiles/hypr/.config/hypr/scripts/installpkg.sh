@@ -41,6 +41,7 @@ aur_packages=(
     visual-studio-code-bin
     xdg-desktop-portal-hyprland
     rofi-greenclip
+    sddm-sugar-candy-git
 )
 
 sudo pacman -S --noconfirm "${pacman_packages[@]}"
