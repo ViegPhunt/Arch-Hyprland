@@ -39,7 +39,8 @@ cd ~/dotfiles
 stow ghostty hypr rofi swww wallpaper waybar wlogout
 cd ~
 
-echo "Enable SDDM"
+echo "Setup SDDM"
 sudo systemctl enable --now sddm
+echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
 
 echo "Have a great time with Hyprland!!!"
