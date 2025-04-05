@@ -26,9 +26,8 @@ pacman_packages=(
     grim
     slurp
     gnome-text-editor
-    okular
     cheese
-    ly
+    sddm
     obs-studio
 )
 
