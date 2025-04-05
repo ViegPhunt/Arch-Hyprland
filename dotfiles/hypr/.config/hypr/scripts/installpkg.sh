@@ -28,7 +28,7 @@ pacman_packages=(
     gnome-text-editor
     okular
     cheese
-    sddm
+    ly
     obs-studio
 )
 
