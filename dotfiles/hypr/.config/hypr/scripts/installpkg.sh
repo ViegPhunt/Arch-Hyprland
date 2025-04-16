@@ -41,6 +41,7 @@ aur_packages=(
     visual-studio-code-bin
     xdg-desktop-portal-hyprland
     rofi-greenclip
+    apple_cursor
     sddm-sugar-candy-git
 )
 
