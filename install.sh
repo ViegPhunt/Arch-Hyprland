@@ -36,6 +36,9 @@ cd ~/dotfiles
 stow ghostty hypr rofi swww wallpaper waybar wlogout
 cd ~
 
+echo "Make executable"
+sudo chmod +x ~/dotfiles/hypr/.config/hypr/scripts/*
+
 echo "Setup SDDM"
 sudo systemctl enable sddm
 echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
