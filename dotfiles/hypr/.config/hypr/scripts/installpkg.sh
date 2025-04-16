@@ -30,6 +30,9 @@ pacman_packages=(
     sddm
     obs-studio
     pavucontrol
+    qt5ct
+    qt6ct
+    adw-gtk-theme
 )
 
 aur_packages=(
