@@ -19,6 +19,9 @@ pip install Pillow
 echo "Enable bluetooth"
 sudo systemctl enable --now bluetooth
 
+echo "Enable networkmanager"
+sudo systemctl enable --now NetworkManager
+
 echo "Install JetBrainsMono Nerd Font"
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
