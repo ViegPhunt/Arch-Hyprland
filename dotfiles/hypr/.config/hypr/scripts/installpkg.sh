@@ -29,6 +29,7 @@ pacman_packages=(
     cheese
     sddm
     obs-studio
+    pavucontrol
 )
 
 aur_packages=(
