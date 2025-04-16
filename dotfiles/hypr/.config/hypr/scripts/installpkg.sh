@@ -38,12 +38,14 @@ pacman_packages=(
 aur_packages=(
     wlogout
     hyprshot
-    brave-bin
-    spotify
-    cava
-    visual-studio-code-bin
     xdg-desktop-portal-hyprland
+    cava
+    spotify
     rofi-greenclip
+    visual-studio-code-bin
+    cursor-bin
+    brave-bin
+    zen-browser-bin
     sddm-sugar-candy-git
     apple_cursor
     whitesur-icon-theme
