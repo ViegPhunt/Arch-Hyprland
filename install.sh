@@ -23,7 +23,13 @@ echo "Enable networkmanager"
 sudo systemctl enable --now NetworkManager
 
 echo "Install JetBrainsMono Nerd Font"
-curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip JetBrainsMono.zip
+rm JetBrainsMono.zip
+fc-cache -fv
+cd ~
 
 echo "Stow dotfiles"
 git clone https://github.com/ViegPhunt/Arch-Hyprland.git ~/Arch-Hyprland
