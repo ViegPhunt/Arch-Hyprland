@@ -31,6 +31,9 @@ rm JetBrainsMono.zip
 fc-cache -fv
 cd ~
 
+echo "Set Cursor"
+bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/Arch-Hyprland/refs/heads/main/dotfiles/hypr/.config/hypr/scripts/setcursor.sh)"
+
 echo "Stow dotfiles"
 git clone https://github.com/ViegPhunt/Arch-Hyprland.git ~/Arch-Hyprland
 mkdir -p ~/dotfiles && mv ~/Arch-Hyprland/dotfiles/* ~/dotfiles/
