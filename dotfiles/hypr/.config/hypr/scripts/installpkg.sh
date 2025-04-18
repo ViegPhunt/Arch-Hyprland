@@ -26,6 +26,7 @@ pacman_packages=(
     grim
     slurp
     gnome-text-editor
+    nwg-look
     cheese
     sddm
     obs-studio
