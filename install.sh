@@ -22,14 +22,8 @@ sudo systemctl enable --now bluetooth
 echo "Enable networkmanager"
 sudo systemctl enable --now NetworkManager
 
-echo "Install JetBrainsMono Nerd Font"
-mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts
-wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
-unzip JetBrainsMono.zip
-rm JetBrainsMono.zip
-fc-cache -fv
-cd ~
+echo "Install Fonts"
+bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/Arch-Hyprland/refs/heads/main/dotfiles/hypr/.config/hypr/scripts/installfonts.sh)"
 
 echo "Set Cursor"
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/Arch-Hyprland/refs/heads/main/dotfiles/hypr/.config/hypr/scripts/setcursor.sh)"
