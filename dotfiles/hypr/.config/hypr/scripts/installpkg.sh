@@ -45,6 +45,7 @@ aur_packages=(
     rofi-greenclip
     visual-studio-code-bin
     cursor-bin
+    sublime-text-4
     brave-bin
     zen-browser-bin
     sddm-sugar-candy-git
