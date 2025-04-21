@@ -12,7 +12,7 @@ This script automates install and setup my Arch Hyprland
 ## Installation
 Using this script to install Hyprland on an Arch-based system
 ```
-git clone --depth=1 https://github.com/ViegPhunt/Arch-Hyprland.git ~/Arch-Hyprland
+git clone https://github.com/ViegPhunt/Arch-Hyprland.git
 cd ~/Arch-Hyprland
 chmod +x install.sh
 ./install.sh
