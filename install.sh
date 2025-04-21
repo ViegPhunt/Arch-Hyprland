@@ -7,14 +7,17 @@ cd ~
 
 sudo pacman -Syu --noconfirm
 
+echo "Create dotfiles folder"
+mkdir -p ~/dotfiles && mv ~/Arch-Hyprland/dotfiles/* ~/dotfiles/
+
 echo "Make executable"
-sudo chmod +x ~/Arch-Hyprland/dotfiles/hypr/.config/hypr/scripts/*
+sudo chmod +x ~/dotfiles/hypr/.config/hypr/scripts/*
 
 echo "Setup Terminal"
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/auto-setup-LT/main/arch.sh)"
 
 echo "Install package"
-~/Arch-Hyprland/dotfiles/hypr/.config/hypr/scripts/installpkg.sh
+~/dotfiles/hypr/.config/hypr/scripts/installpkg.sh
 
 echo "PIP Install"
 pip install Pillow
@@ -26,10 +29,9 @@ echo "Enable networkmanager"
 sudo systemctl enable --now NetworkManager
 
 echo "Set Cursor"
-~/Arch-Hyprland/dotfiles/hypr/.config/hypr/scripts/setcursor.sh
+~/dotfiles/hypr/.config/hypr/scripts/setcursor.sh
 
 echo "Stow dotfiles"
-mkdir -p ~/dotfiles && mv ~/Arch-Hyprland/dotfiles/* ~/dotfiles/
 git clone https://github.com/ViegPhunt/Wallpaper-Collection.git ~/Wallpaper-Collection
 mkdir -p ~/dotfiles/wallpaper/.config/wallpaper && mv ~/Wallpaper-Collection/Wallpapers/* ~/dotfiles/wallpaper/.config/wallpaper
 rm -rf ~/Wallpaper-Collection
