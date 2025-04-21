@@ -10,9 +10,6 @@ sudo pacman -Syu --noconfirm
 echo "Make executable"
 sudo chmod +x ~/Arch-Hyprland/dotfiles/hypr/.config/hypr/scripts/*
 
-echo "Install Fonts"
-~/Arch-Hyprland/dotfiles/hypr/.config/hypr/scripts/installfonts.sh
-
 echo "Setup Terminal"
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/auto-setup-LT/main/arch.sh)"
 
