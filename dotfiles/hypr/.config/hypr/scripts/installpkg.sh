@@ -51,6 +51,7 @@ aur_packages=(
     sddm-sugar-candy-git
     apple_cursor
     whitesur-icon-theme
+    ttf-jetbrains-mono-nerd
 )
 
 sudo pacman -S --noconfirm "${pacman_packages[@]}"
