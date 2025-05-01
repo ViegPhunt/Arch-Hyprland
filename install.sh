@@ -7,22 +7,19 @@ cd ~
 
 sudo pacman -Syu --noconfirm
 
-echo "Create dotfiles folder"
-mkdir -p ~/dotfiles && mv ~/Arch-Hyprland/dotfiles/* ~/dotfiles/
-
-echo "Make executable"
-sudo chmod +x ~/dotfiles/hypr/.config/hypr/scripts/*
-
-echo "Download wallpaper"
-git clone https://github.com/ViegPhunt/Wallpaper-Collection.git ~/Wallpaper-Collection
-mkdir -p ~/dotfiles/wallpaper/.config/wallpaper && mv ~/Wallpaper-Collection/Wallpapers/* ~/dotfiles/wallpaper/.config/wallpaper
-rm -rf ~/Wallpaper-Collection
-
 echo "Setup Terminal"
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/auto-setup-LT/main/arch.sh)"
 
+echo "Make executable"
+sudo chmod +x ~/dotfiles/.config/hypr/scripts/*
+
+echo "Download wallpaper"
+git clone --depth 1 https://github.com/ViegPhunt/Wallpaper-Collection.git ~/Wallpaper-Collection
+mkdir -p ~/dotfiles/.config/wallpaper && mv ~/Wallpaper-Collection/Wallpapers/* ~/dotfiles/.config/wallpaper
+rm -rf ~/Wallpaper-Collection
+
 echo "Install package"
-~/dotfiles/hypr/.config/hypr/scripts/installpkg.sh
+~/dotfiles/.config/hypr/scripts/installpkg.sh
 
 echo "PIP Install"
 pip install Pillow
@@ -34,12 +31,7 @@ echo "Enable networkmanager"
 sudo systemctl enable --now NetworkManager
 
 echo "Set Cursor"
-~/dotfiles/hypr/.config/hypr/scripts/setcursor.sh
-
-echo "Stow dotfiles"
-cd ~/dotfiles
-stow ghostty hypr rofi swww wallpaper waybar wlogout
-cd ~
+~/dotfiles/.config/hypr/scripts/setcursor.sh
 
 echo "Setup SDDM"
 sudo systemctl enable sddm
