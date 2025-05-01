@@ -33,6 +33,11 @@ sudo systemctl enable --now NetworkManager
 echo "Set Cursor"
 ~/dotfiles/.config/hypr/scripts/setcursor.sh
 
+echo "Stow dotfiles"
+cd ~/dotfiles
+stow -t ~ .
+cd ~
+
 echo "Setup SDDM"
 sudo systemctl enable sddm
 echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
