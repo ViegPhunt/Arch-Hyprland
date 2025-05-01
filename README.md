@@ -8,6 +8,9 @@ This script automates install and setup my Arch Hyprland
 > [!NOTE]
 > This script does not include package uninstallation, as some packages may have already been installed on your system by default. Creating a package uninstallation script could potentially affect your previous system.
 
+> [!NOTE]
+> This is my dotfiles repo: [`dotfiles`](https://github.com/ViegPhunt/Dotfiles)
+
 
 ## Installation
 Using this script to install Hyprland on an Arch-based system
