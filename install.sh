@@ -15,7 +15,7 @@ sudo chmod +x ~/dotfiles/.config/hypr/scripts/*
 
 echo "Download wallpaper"
 git clone --depth 1 https://github.com/ViegPhunt/Wallpaper-Collection.git ~/Wallpaper-Collection
-mkdir -p ~/dotfiles/.config/wallpapers && mv ~/Wallpaper-Collection/Wallpapers/* ~/dotfiles/.config/wallpapers
+mkdir -p ~/Pictures/Wallpapers && mv ~/Wallpaper-Collection/Wallpapers/* ~/Pictures/Wallpapers
 rm -rf ~/Wallpaper-Collection
 
 echo "Install package"
