@@ -50,7 +50,7 @@ echo
 echo "*********************************************************************"
 echo "*                    Hyprland setup is complete!                    *"
 echo "*                                                                   *"
-echo "*   It is recommended to reboot your system to apply all changes.   *"
+echo "*   It is recommended to REBOOT your system to apply all changes.   *"
 echo "*                                                                   *"
 echo "*                 Have a great time with Hyprland!!                 *"
 echo "*********************************************************************"
