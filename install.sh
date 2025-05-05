@@ -54,3 +54,5 @@ echo "*   It is recommended to reboot your system to apply all changes.   *"
 echo "*                                                                   *"
 echo "*                 Have a great time with Hyprland!!                 *"
 echo "*********************************************************************"
+echo
+echo
