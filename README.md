@@ -10,7 +10,7 @@ This script automates the installation and setup of my Arch Hyprland environment
 > This script does not include package uninstallation, as some packages may already exist on your system by default. Creating an uninstallation script could potentially affect your current setup.
 
 > [!NOTE]
-> This is my dotfiles repo: [`dotfiles`](https://github.com/ViegPhunt/Dotfiles).
+> This is my dotfiles repo: [`Dotfiles`](https://github.com/ViegPhunt/Dotfiles).
 
 
 ## Installation
