@@ -47,9 +47,10 @@ sudo systemctl enable sddm
 echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
 
 echo
-echo "Hyprland setup is complete!"
-echo
-echo "It is recommended to reboot your system to apply all changes."
-echo
-echo "Have a great time with Hyprland!!!"
-echo
+echo "*********************************************************************"
+echo "*                    Hyprland setup is complete!                    *"
+echo "*                                                                   *"
+echo "*   It is recommended to reboot your system to apply all changes.   *"
+echo "*                                                                   *"
+echo "*                 Have a great time with Hyprland!!                 *"
+echo "*********************************************************************"
