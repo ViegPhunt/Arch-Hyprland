@@ -1,21 +1,22 @@
 # My Arch-Hyprland Install Script
-This script automates install and setup my Arch Hyprland
+This script automates the installation and setup of my Arch Hyprland environment.
 
-## Necessary
+## Important Notes
 > [!IMPORTANT]
-> Install a backup tool and create a system backup before using this script.
+> `This script automates the installation and setup of my Arch Hyprland environment.`
+> - If you want to try it, you should use a minimal profile and backup your system beforehand.
 
 > [!NOTE]
-> This script does not include package uninstallation, as some packages may have already been installed on your system by default. Creating a package uninstallation script could potentially affect your previous system.
+> This script does not include package uninstallation, as some packages may already exist on your system by default. Creating an uninstallation script could potentially affect your current setup.
 
 > [!NOTE]
-> This is my dotfiles repo: [`dotfiles`](https://github.com/ViegPhunt/Dotfiles)
+> This is my dotfiles repo: [`dotfiles`](https://github.com/ViegPhunt/Dotfiles).
 
 
 ## Installation
-Using this script to install Hyprland on an Arch-based system
+Use this script to install Hyprland on an Arch-based system:
 ```
-git clone https://github.com/ViegPhunt/Arch-Hyprland.git
+git clone --depth=1 https://github.com/ViegPhunt/Arch-Hyprland.git
 cd ~/Arch-Hyprland
 chmod +x install.sh
 ./install.sh
