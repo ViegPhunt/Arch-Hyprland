@@ -4,11 +4,17 @@ This script automates the installation and setup of my Arch Hyprland environment
 ## Table of Contents
 - [My Arch-Hyprland Install Script](#my-arch-hyprland-install-script)
   - [Table of Contents](#table-of-contents)
-  - [Important Notes](#important-notes)
   - [Preview](#preview)
     - [Videos](#videos)
     - [Screenshots](#screenshots)
+  - [Important Notes](#important-notes)
   - [Installation](#installation)
+
+## Preview
+### Videos
+[▶️ Watch on YouTube](https://www.youtube.com/watch?v=R4udSxtli8g)
+### Screenshots
+![screenshot1](./assets/screenshots/screenshot-1.png)
 
 ## Important Notes
 > [!IMPORTANT]
@@ -20,12 +26,6 @@ This script automates the installation and setup of my Arch Hyprland environment
 
 > [!NOTE]
 > This is my dotfiles repo: [`Dotfiles`](https://github.com/ViegPhunt/Dotfiles).
-
-## Preview
-### Videos
-[▶️ Watch on YouTube](https://www.youtube.com/watch?v=R4udSxtli8g)
-### Screenshots
-![screenshot1](./assets/screenshots/screenshot-1.png)
 
 ## Installation
 Use this script to install Hyprland on an Arch-based system:
