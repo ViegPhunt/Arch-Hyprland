@@ -34,6 +34,9 @@ sudo systemctl enable --now bluetooth
 echo "==> Enable networkmanager"
 sudo systemctl enable --now NetworkManager
 
+echo "==> Set Ghostty as the default terminal emulator for Nemo"
+gsettings set org.cinnamon.desktop.default-applications.terminal exec ghostty
+
 echo "==> Set Cursor"
 ~/dotfiles/.config/hypr/scripts/setcursor.sh
 
@@ -45,6 +48,8 @@ cd ~
 echo "==> Setup SDDM"
 sudo systemctl enable sddm
 echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
+
+clear
 
 echo
 echo "*********************************************************************"
