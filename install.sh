@@ -45,9 +45,16 @@ cd ~/dotfiles
 stow -t ~ .
 cd ~
 
-echo "==> Setup SDDM"
-sudo systemctl enable sddm
-echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
+echo "==> Check display manager"
+DISPLAY_MANAGER_LINK=$(readlink /etc/systemd/system/display-manager.service 2>/dev/null)
+if [[ -n "$DISPLAY_MANAGER_LINK" ]]; then
+    echo "Display manager already installed: $(basename "$DISPLAY_MANAGER_LINK")"
+else
+    echo "No display manager found. Set sddm!"
+    sudo systemctl enable sddm
+    echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
+    echo "sddm has been enabled."
+fi
 
 clear
 
