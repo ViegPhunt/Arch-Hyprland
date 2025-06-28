@@ -13,7 +13,9 @@ This script automates the installation and setup of my Arch Hyprland environment
 ## Preview
 ### Videos
 [▶️ Watch on YouTube](https://www.youtube.com/watch?v=R4udSxtli8g)
+
 <https://github.com/user-attachments/assets/8a02cc1c-c44b-4e10-a748-8c4ed241e8a1>
+
 ### Screenshots
 <p align="center">
     <img src="./assets/screenshots/screenshot-1.png" alt="screenshot-1.png" width="48%"/>
