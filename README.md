@@ -15,13 +15,13 @@ This script automates the installation and setup of my Arch Hyprland environment
 [▶️ Watch on YouTube](https://www.youtube.com/watch?v=R4udSxtli8g)
 ### Screenshots
 <p align="center">
-    <img src="./assets/screenshots/screenshot-1.png" alt="EAX" width="48%"/>
+    <img src="./assets/screenshots/screenshot-1.png" alt="EAX" width="45%"/>
     <img width="12"/>
-    <img src="./assets/screenshots/screenshot-2.png" alt="EBX" width="48%"/>
+    <img src="./assets/screenshots/screenshot-2.png" alt="EBX" width="45%"/>
     <img width="12"/>
-    <img src="./assets/screenshots/screenshot-3.png" alt="ECX" width="48%"/>
+    <img src="./assets/screenshots/screenshot-3.png" alt="ECX" width="45%"/>
     <img width="12"/>
-    <img src="./assets/screenshots/screenshot-4.png" alt="EDX" width="48%"/>
+    <img src="./assets/screenshots/screenshot-4.png" alt="EDX" width="45%"/>
 </p>
 
 ## Important Notes
