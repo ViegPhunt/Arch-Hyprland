@@ -15,7 +15,7 @@
 
 ## Preview
 ### Videos
-[▶️ Watch on YouTube](https://www.youtube.com/watch?v=R4udSxtli8g)
+[▶️ Watch on YouTube](https://www.youtube.com/watch?v=YsWsSyLXvek)
 
 <https://github.com/user-attachments/assets/8a02cc1c-c44b-4e10-a748-8c4ed241e8a1>
 
