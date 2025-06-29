@@ -11,7 +11,6 @@
 - [Dotfiles Repo](#dotfiles-repo)
 - [Wallpapers Repo](#wallpapers-repo)
 - [Inspirations](#inspirations)
-- [Feedback](#feedback)
 
 ## Preview
 ### Videos
