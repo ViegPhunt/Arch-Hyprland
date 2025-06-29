@@ -17,16 +17,16 @@
 ### Videos
 [▶️ Watch on YouTube](https://www.youtube.com/watch?v=YsWsSyLXvek)
 
-<https://github.com/user-attachments/assets/8a02cc1c-c44b-4e10-a748-8c4ed241e8a1>
+<https://github.com/user-attachments/assets/1f4ffdc0-13b3-4e79-aa87-9b5d39038964>
 
 ### Screenshots
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/e77b4a62-f182-4503-abb2-d23dd91b7259" alt="screenshot-1.png" width="48%"/>
+    <img src="https://github.com/user-attachments/assets/eb7d7c5f-c790-43db-8cbe-7cc6d29730d1" alt="Image-1.png" width="48%"/>
     <img width="12"/>
-    <img src="https://github.com/user-attachments/assets/a5a934bf-f140-4848-a9e4-8705b8b421f7" alt="screenshot-2.png" width="48%"/>
-    <img src="https://github.com/user-attachments/assets/9cc96979-7d55-460e-a68d-923c5405bb95" alt="screenshot-3.png" width="48%"/>
+    <img src="https://github.com/user-attachments/assets/6e5599cd-9a8e-4e50-9229-5c1406d3e492" alt="Image-2.png" width="48%"/>
+    <img src="https://github.com/user-attachments/assets/d72b9574-7f38-4614-b2f1-f1f9ae366a41" alt="Image-3.png" width="48%"/>
     <img width="12"/>
-    <img src="https://github.com/user-attachments/assets/d774289c-6eae-4c3f-95fc-d1e4389b7dad" alt="screenshot-4.png" width="48%"/>
+    <img src="https://github.com/user-attachments/assets/ccbbad56-21e1-42f9-9356-620be9255be2" alt="Image-4.png" width="48%"/>
 </p>
 
 ## Notes
