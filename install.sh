@@ -15,7 +15,7 @@ echo "==> Setup Terminal"
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/auto-setup-LT/main/arch.sh)"
 
 echo "==> Make executable"
-sudo chmod +x ~/dotfiles/.config/hypr/scripts/*
+sudo chmod +x ~/dotfiles/.config/viegphunt/*
 
 echo "==> Download wallpaper"
 git clone --depth 1 https://github.com/ViegPhunt/Wallpaper-Collection.git ~/Wallpaper-Collection
@@ -24,7 +24,7 @@ mv ~/Wallpaper-Collection/Wallpapers/* ~/Pictures/Wallpapers
 rm -rf ~/Wallpaper-Collection
 
 echo "==> Install package"
-~/dotfiles/.config/hypr/scripts/installpkg.sh
+~/dotfiles/.config/viegphunt/install_archpkg.sh
 
 echo "==> PIP Install"
 pip3 install Pillow
@@ -39,7 +39,7 @@ echo "==> Set Ghostty as the default terminal emulator for Nemo"
 gsettings set org.cinnamon.desktop.default-applications.terminal exec ghostty
 
 echo "==> Set Cursor"
-~/dotfiles/.config/hypr/scripts/setcursor.sh
+~/dotfiles/.config/viegphunt/setcursor.sh
 
 echo "==> Stow dotfiles"
 cd ~/dotfiles
