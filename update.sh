@@ -13,4 +13,5 @@ rm -rf .git README.md
 
 echo
 echo "==> Config update completed!"
+echo "==> It is recommended to RELOGIN to apply all changes."
 echo
