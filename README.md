@@ -8,6 +8,7 @@
   - [Screenshots](#screenshots)
 - [Notes](#notes)
 - [Installation](#installation)
+- [Update Dotfiles](#update-dotfiles)
 - [Dotfiles Repo](#dotfiles-repo)
 - [Wallpapers Repo](#wallpapers-repo)
 - [Inspirations](#inspirations)
