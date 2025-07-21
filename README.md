@@ -1,6 +1,7 @@
 # My Arch-Hyprland
 ![Arch Linux](https://img.shields.io/badge/Arch-Linux-1793D1?logo=arch-linux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-WM-000000?logo=wayland&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
 - [Preview](#preview)
