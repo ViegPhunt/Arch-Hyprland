@@ -9,7 +9,6 @@
   - [Screenshots](#screenshots)
 - [Notes](#notes)
 - [Installation](#installation)
-- [Update Dotfiles](#update-dotfiles)
 - [Dotfiles Repo](#dotfiles-repo)
 - [Wallpapers Repo](#wallpapers-repo)
 - [Inspirations](#inspirations)
@@ -45,18 +44,6 @@ git clone --depth=1 https://github.com/ViegPhunt/Arch-Hyprland.git
 cd ~/Arch-Hyprland
 chmod +x install.sh
 ./install.sh
-```
-
-## Update Dotfiles
-To update your dotfiles, you can either run the script locally:
-```
-cd ~/Arch-Hyprland
-chmod +x update.sh
-./update.sh
-```
-Or run it directly from the remote repository:
-```
-bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/Arch-Hyprland/main/update.sh)"
 ```
 
 ## Dotfiles Repo
