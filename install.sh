@@ -26,9 +26,6 @@ rm -rf ~/Wallpaper-Collection
 echo "==> Install package"
 ~/dotfiles/.config/viegphunt/install_archpkg.sh
 
-echo "==> PIP Install"
-pip3 install Pillow
-
 echo "==> Enable bluetooth"
 sudo systemctl enable --now bluetooth
 
