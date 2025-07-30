@@ -35,6 +35,9 @@ sudo systemctl enable --now NetworkManager
 echo "==> Set Ghostty as the default terminal emulator for Nemo"
 gsettings set org.cinnamon.desktop.default-applications.terminal exec ghostty
 
+echo "==> Apply fonts"
+fc-cache -fv
+
 echo "==> Set Cursor"
 ~/dotfiles/.config/viegphunt/setcursor.sh
 
