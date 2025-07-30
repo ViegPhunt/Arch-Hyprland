@@ -8,10 +8,10 @@ echo "==> Create by Phunt_Vieg_"
 
 cd ~
 
-echo "==> Updating system packages..."
+echo "==> Updating system packages"
 sudo pacman -Syu --noconfirm
 
-echo "==> Setup Terminal"
+echo "==> Setup terminal"
 bash -c "$(curl -fSL https://raw.githubusercontent.com/ViegPhunt/auto-setup-LT/main/arch.sh)"
 
 echo "==> Make executable"
@@ -38,7 +38,7 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec ghostty
 echo "==> Apply fonts"
 fc-cache -fv
 
-echo "==> Set Cursor"
+echo "==> Set cursor"
 ~/dotfiles/.config/viegphunt/setcursor.sh
 
 echo "==> Stow dotfiles"
