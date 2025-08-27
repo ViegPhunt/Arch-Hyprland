@@ -50,7 +50,6 @@ echo "==> Check display manager"
 if [[ ! -e /etc/systemd/system/display-manager.service ]]; then
     sudo systemctl enable sddm
     echo -e "[Theme]\nCurrent=sddm-astronaut-theme" | sudo tee -a /etc/sddm.conf
-    echo -e "[General]\nInputMethod=qtvirtualkeyboard" | sudo tee -a /etc/sddm.conf.d/virtualkbd.conf
     sudo sed -i 's|astronaut.conf|purple_leaves.conf|' /usr/share/sddm/themes/sddm-astronaut-theme/metadata.desktop
     echo "SDDM has been enabled."
 fi
