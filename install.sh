@@ -49,7 +49,7 @@ cd ~
 echo "==> Check display manager"
 if [[ ! -e /etc/systemd/system/display-manager.service ]]; then
     sudo systemctl enable sddm
-    echo -e "[Theme]\nCurrent=sugar-candy" | sudo tee -a /etc/sddm.conf
+    echo -e "[Theme]\nCurrent=sddm-astronaut-theme" | sudo tee -a /etc/sddm.conf
     echo "sddm has been enabled."
 fi
 
