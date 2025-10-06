@@ -22,12 +22,10 @@
 
 ### Screenshots
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/a004c50a-4001-4596-a48e-97ecc9997843" alt="Image-1.png" width="48%"/>
-    <img width="12"/>
-    <img src="https://github.com/user-attachments/assets/5d59431c-de0c-487d-bc1a-ea4b2828787a" alt="Image-2.png" width="48%"/>
-    <img src="https://github.com/user-attachments/assets/b2b0674f-4709-40d3-bfbe-9c5c5660bf3b" alt="Image-3.png" width="48%"/>
-    <img width="12"/>
-    <img src="https://github.com/user-attachments/assets/c55950ed-8e7b-4e10-bde3-dd445fbc388b" alt="Image-4.png" width="48%"/>
+    <img src="https://github.com/user-attachments/assets/a004c50a-4001-4596-a48e-97ecc9997843" alt="Image-1.png" width="49%"/>
+    <img src="https://github.com/user-attachments/assets/5d59431c-de0c-487d-bc1a-ea4b2828787a" alt="Image-2.png" width="49%"/>
+    <img src="https://github.com/user-attachments/assets/b2b0674f-4709-40d3-bfbe-9c5c5660bf3b" alt="Image-3.png" width="49%"/>
+    <img src="https://github.com/user-attachments/assets/c55950ed-8e7b-4e10-bde3-dd445fbc388b" alt="Image-4.png" width="49%"/>
 </p>
 
 ## Notes
