@@ -41,7 +41,7 @@
 
 ## Installation
 Use this script to install Hyprland on an Arch-based system:
-```
+``` bash
 git clone --depth=1 https://github.com/ViegPhunt/Arch-Hyprland.git
 cd ~/Arch-Hyprland
 chmod +x install.sh
