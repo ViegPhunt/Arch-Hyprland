@@ -1,12 +1,33 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+
+PINK="\e[35m"
+WHITE="\e[0m"
+YELLOW="\e[33m"
+GREEN="\e[32m"
+BLUE="\e[34m"
+
 clear
 
 echo "==> WELCOME! Now we will install and setup Hyprland on an Arch-based system"
 echo "==> Create by Phunt_Vieg_"
 
-cd ~
+
+cdecho -e "${YELLOW} Do you still want to continue with Hyprland installation using this script? [y/N]: \n"
+
+read -r confirm
+case "$confirm" in
+    [yY][eE][sS]|[yY])
+        echo -e "\n${GREEN}[OK]${PINK} ==> Continuing with installation..."
+        ;;
+    *)
+        echo -e "${BLUE}[NOTE]${PINK} ==> You 🫵 chose ${YELLOW}NOT${PINK} to proceed.. Exiting..."
+        echo
+        exit 1
+        ;;
+esac
+ ~
 
 echo "==> Updating system packages"
 sudo pacman -Syu --noconfirm
