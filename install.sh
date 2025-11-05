@@ -14,7 +14,8 @@ echo "==> WELCOME! Now we will install and setup Hyprland on an Arch-based syste
 echo "==> Create by Phunt_Vieg_"
 
 
-cdecho -e "${YELLOW} Do you still want to continue with Hyprland installation using this script? [y/N]: \n"
+cd
+echo -e "${YELLOW} Do you still want to continue with Hyprland installation using this script? [y/N]: \n"
 
 read -r confirm
 case "$confirm" in
