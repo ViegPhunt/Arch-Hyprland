@@ -2,6 +2,12 @@
 set -euo pipefail
 
 # Variables
+#----------------------------
+
+# time variable
+start=$(date +%s)
+
+# Color variables
 PINK="\e[35m"
 WHITE="\e[0m"
 YELLOW="\e[33m"
@@ -107,11 +113,22 @@ fi
 sleep 0.7
 clear
 
+# Calculate how long the script took
+end=$(date +%s)
+duration=$((end - start))
+
+hours=$((duration / 3600))
+minutes=$(((duration % 3600) / 60))
+seconds=$((duration % 60))
+
+printf -v minutes "%02d" "$minutes"
+printf -v seconds "%02d" "$seconds"
 
 echo -e "\n
  *********************************************************************
  *                    Hyprland setup is complete!                    *
  *                                                                   *
+ *             Duration : $hours hours, $minutes minutes, $seconds seconds            *
  *                                                                   *
  *   It is recommended to \e[1;4mREBOOT\e[0m your system to apply all changes.   *
  *                                                                   *
