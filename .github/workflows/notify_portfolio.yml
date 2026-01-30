@@ -1,0 +1,15 @@
+name: Notify Portfolio Update
+on:
+  push:
+    branches: [ main ]
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Dispatch to Portfolio
+        uses: peter-evans/repository-dispatch@v4
+        with:
+          token: ${{ secrets.SECRET_TOKEN }}
+          repository: ViegPhunt/viegphunt.github.io
+          event-type: content_updated
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
